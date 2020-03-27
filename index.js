@@ -4,6 +4,7 @@ const client = new Discord.Client();
 const arrMethods = require('./db/queries/arrayQueries');
 const strMethods = require('./db/queries/stringQueries');
 const objMethods = require('./db/queries/objectQueries');
+const msgMethods = require('./db/queries/messageQueries');
 require('dotenv').config();
 
 client.on('message', (msg) => {
@@ -28,6 +29,10 @@ client.on('message', (msg) => {
       .then((res) => res.toJSON())
       .then((data) => msg.channel.send(data.url))
       .catch(() => msg.channel.send(`Unable to find an object method called ${queryMessage[1]}.`));
+  }
+
+  if (msg.channel.name !== 'bot-commands') {
+    msgMethods.insert(msg);
   }
 });
 

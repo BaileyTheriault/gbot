@@ -3,7 +3,7 @@ const db = require('../index');
 const search = (req) => {
   const regExp = new RegExp(req, 'i');
 
-  return db.objecModel.find({ name: regExp })
+  return db.ObjectModel.find({ name: regExp })
     .then((doc) => doc[0])
     .catch((err) => err);
 };
