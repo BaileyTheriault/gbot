@@ -52,21 +52,29 @@ client.on('message', async (msg) => {
 
 client.on('messageReactionAdd', async (reaction) => {
   if (reaction._emoji.name === 'issue' && reaction.count === 2) {
-    const recievedEmbed = reaction.message.embeds[0];
-    const updatedEmbed = new Discord.MessageEmbed(recievedEmbed);
-    const username = updatedEmbed.title.split(' ').slice(0, 2).join(' ');
-    updatedEmbed.fields[1].value = 'In Progress';
-    updatedEmbed.fields[0].value = username.slice(0, username.length - 2);
+    try {
+      const recievedEmbed = reaction.message.embeds[0];
+      const updatedEmbed = new Discord.MessageEmbed(recievedEmbed);
+      const username = updatedEmbed.title.split(' ').slice(0, 2).join(' ');
+      updatedEmbed.fields[1].value = 'In Progress';
+      updatedEmbed.fields[0].value = username.slice(0, username.length - 2);
 
-    await reaction.message.edit(updatedEmbed);
+      await reaction.message.edit(updatedEmbed);
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   if (reaction._emoji.name === 'issueClosed' && reaction.count === 2) {
-    const recievedEmbed = reaction.message.embeds[0];
-    const updatedEmbed = new Discord.MessageEmbed(recievedEmbed);
-    updatedEmbed.fields[1].value = 'Completed';
+    try {
+      const recievedEmbed = reaction.message.embeds[0];
+      const updatedEmbed = new Discord.MessageEmbed(recievedEmbed);
+      updatedEmbed.fields[1].value = 'Completed';
 
-    await reaction.message.edit(updatedEmbed);
+      await reaction.message.edit(updatedEmbed);
+    } catch (err) {
+      console.log(err);
+    }
   }
 });
 
