@@ -2,7 +2,7 @@ const db = require('../index');
 
 const insert = (message) => {
   const newMessage = new db.MessageModel({
-    author: message.author.name,
+    author: message.member.displayName,
     authorId: message.author.id,
     authorDis: message.author.discriminator,
     date: Date.now(),
