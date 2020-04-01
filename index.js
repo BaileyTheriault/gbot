@@ -13,24 +13,33 @@ client.on('message', async (msg) => {
   const queryMessage = msg.content.split(' ');
 
   if (queryMessage[0] === '!a' || queryMessage[0] === '!array') {
-    arrMethods.search(queryMessage[1])
-      .then((res) => res.toJSON())
-      .then((data) => msg.channel.send(data.url))
-      .catch(() => msg.channel.send(`Unable to find an array method called ${queryMessage[1]}.`));
+    try {
+      const methodRes = await arrMethods.search(queryMessage[1]);
+      const methodData = await methodRes.toJSON();
+      await msg.channel.send(methodData.url);
+    } catch (err) {
+      msg.channel.send(`Unable to find an array method called ${queryMessage[1]}.`);
+    }
   }
 
   if (queryMessage[0] === '!s' || queryMessage[0] === '!string') {
-    strMethods.search(queryMessage[1])
-      .then((res) => res.toJSON())
-      .then((data) => msg.channel.send(data.url))
-      .catch(() => msg.channel.send(`Unable to find a string method called ${queryMessage[1]}.`));
+    try {
+      const methodRes = await strMethods.search(queryMessage[1]);
+      const methodData = await methodRes.toJSON();
+      await msg.channel.send(methodData.url);
+    } catch (err) {
+      msg.channel.send(`Unable to find a string method called ${queryMessage[1]}.`);
+    }
   }
 
   if (queryMessage[0] === '!o' || queryMessage[0] === '!object') {
-    objMethods.search(queryMessage[1])
-      .then((res) => res.toJSON())
-      .then((data) => msg.channel.send(data.url))
-      .catch(() => msg.channel.send(`Unable to find an object method called ${queryMessage[1]}.`));
+    try {
+      const methodRes = await objMethods.search(queryMessage[1]);
+      const methodData = await methodRes.toJSON();
+      await msg.channel.send(methodData.url);
+    } catch (err) {
+      msg.channel.send(`Unable to find an object method called ${queryMessage[1]}.`);
+    }
   }
 
   if (queryMessage[0] === '!pr') {
