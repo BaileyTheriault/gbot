@@ -1,6 +1,6 @@
 const db = require('../index');
 
-const insert = (message) => {
+const insert = async (message) => {
   const newMessage = new db.MessageModel({
     author: message.member.displayName,
     authorId: message.author.id,

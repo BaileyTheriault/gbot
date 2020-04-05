@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable no-underscore-dangle */
 const Discord = require('discord.js');
 
@@ -55,7 +56,11 @@ client.on('message', async (msg) => {
   }
 
   if (msg.channel.name !== 'bot-commands') {
-    msgMethods.insert(msg);
+    try {
+      await msgMethods.insert(msg);
+    } catch (err) {
+      console.error(err);
+    }
   }
 });
 
