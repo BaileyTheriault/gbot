@@ -55,7 +55,7 @@ client.on('message', async (msg) => {
     }
   }
 
-  if (msg.channel.name !== 'bot-commands') {
+  if (msg.channel.name !== 'bot-commands' && msg.member.displayName) {
     try {
       await msgMethods.insert(msg);
     } catch (err) {
