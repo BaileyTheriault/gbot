@@ -55,7 +55,7 @@ client.on('message', async (msg) => {
     }
   }
 
-  if (msg.channel.name !== 'bot-commands' && msg.member.displayName) {
+  if (msg.channel.name !== 'bot-commands' && msg.channel.name !== 'slack-bld09' && msg.channel.name !== 'slack-bld08') {
     try {
       await msgMethods.insert(msg);
     } catch (err) {
