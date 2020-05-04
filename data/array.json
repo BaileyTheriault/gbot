@@ -1,0 +1,217 @@
+[{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970d7"
+  },
+  "name": "concat",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970d8"
+  },
+  "name": "copyWithin",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970d9"
+  },
+  "name": "entries",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/entries"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970da"
+  },
+  "name": "every",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970db"
+  },
+  "name": "fill",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970dc"
+  },
+  "name": "filter",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970dd"
+  },
+  "name": "find",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970de"
+  },
+  "name": "findIndex",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970df"
+  },
+  "name": "flat",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/flat"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e0"
+  },
+  "name": "flatMap",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e1"
+  },
+  "name": "forEach",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e2"
+  },
+  "name": "from",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/from"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e3"
+  },
+  "name": "includes",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/includes"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e4"
+  },
+  "name": "indexOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e5"
+  },
+  "name": "isArray",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e6"
+  },
+  "name": "join",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/join"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e7"
+  },
+  "name": "keys",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/keys"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e8"
+  },
+  "name": "lastIndexOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970e9"
+  },
+  "name": "length",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/length"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970ea"
+  },
+  "name": "map",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970eb"
+  },
+  "name": "of",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970ec"
+  },
+  "name": "pop",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/pop"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970ed"
+  },
+  "name": "push",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/push"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970ee"
+  },
+  "name": "reduce",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970ef"
+  },
+  "name": "reduceRight",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f0"
+  },
+  "name": "reverse",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f1"
+  },
+  "name": "shift",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/shift"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f2"
+  },
+  "name": "slice",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f3"
+  },
+  "name": "some",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f4"
+  },
+  "name": "sort",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f5"
+  },
+  "name": "splice",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f6"
+  },
+  "name": "toLocaleString",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f7"
+  },
+  "name": "toSource",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toSource"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f8"
+  },
+  "name": "toString",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toString"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970f9"
+  },
+  "name": "unshift",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift"
+},{
+  "_id": {
+    "$oid": "5e7d31f46aa20c4acc0970fa"
+  },
+  "name": "values",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/values"
+}]

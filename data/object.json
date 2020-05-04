@@ -1,0 +1,163 @@
+[{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09711d"
+  },
+  "name": "assign",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09711e"
+  },
+  "name": "constructor",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09711f"
+  },
+  "name": "create",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097120"
+  },
+  "name": "defineProperties",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097121"
+  },
+  "name": "defineProperty",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097122"
+  },
+  "name": "entries",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097123"
+  },
+  "name": "freeze",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097124"
+  },
+  "name": "fromEntries",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097125"
+  },
+  "name": "getOwnPropertyDescriptor",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097126"
+  },
+  "name": "getOwnPropertyDescriptors",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptors"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097127"
+  },
+  "name": "getOwnPropertyNames",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097128"
+  },
+  "name": "getOwnPropertySymbols",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097129"
+  },
+  "name": "getPrototypeOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09712a"
+  },
+  "name": "hasOwnProperty",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09712b"
+  },
+  "name": "is",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/is"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09712c"
+  },
+  "name": "isExtensible",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09712d"
+  },
+  "name": "isFrozen",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09712e"
+  },
+  "name": "isPrototypeOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc09712f"
+  },
+  "name": "isSealed",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097130"
+  },
+  "name": "keys",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097131"
+  },
+  "name": "preventExtensions",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097132"
+  },
+  "name": "propertyIsEnumerable",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097133"
+  },
+  "name": "seal",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/seal"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097134"
+  },
+  "name": "setPrototypeOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097135"
+  },
+  "name": "toLocaleString",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString"
+},{
+  "_id": {
+    "$oid": "5e7d44ef6aa20c4acc097136"
+  },
+  "name": "toString",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/toString"
+},{
+  "_id": {
+    "$oid": "5e7e5dda971f971d3c75814b"
+  },
+  "name": "values",
+  "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values"
+}]

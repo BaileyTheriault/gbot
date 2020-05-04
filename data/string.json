@@ -1,0 +1,205 @@
+[{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc0970fb"
+  },
+  "name": "charAt",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/charAt"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc0970fc"
+  },
+  "name": "charCodeAt",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc0970fd"
+  },
+  "name": "codePointAt",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc0970fe"
+  },
+  "name": "concat",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/concat"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc0970ff"
+  },
+  "name": "endsWith",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097100"
+  },
+  "name": "fromCharCode",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097101"
+  },
+  "name": "fromCodePoint",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097102"
+  },
+  "name": "includes",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097103"
+  },
+  "name": "indexOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097104"
+  },
+  "name": "lastIndexOf",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097105"
+  },
+  "name": "length",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/length"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097106"
+  },
+  "name": "localeCompare",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097107"
+  },
+  "name": "match",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/match"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097108"
+  },
+  "name": "matchAll",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097109"
+  },
+  "name": "normalize",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/normalize"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09710a"
+  },
+  "name": "padEnd",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09710b"
+  },
+  "name": "padStart",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padStart"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09710c"
+  },
+  "name": "raw",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09710d"
+  },
+  "name": "repeat",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/repeat"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09710e"
+  },
+  "name": "replace",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/replace"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09710f"
+  },
+  "name": "search",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/search"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097110"
+  },
+  "name": "slice",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/slice"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097111"
+  },
+  "name": "split",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/split"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097112"
+  },
+  "name": "startsWith",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097113"
+  },
+  "name": "substring",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substring"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097114"
+  },
+  "name": "toLocaleLowerCase",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097115"
+  },
+  "name": "toLocaleUpperCase",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097116"
+  },
+  "name": "toLowerCase",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097117"
+  },
+  "name": "toSource",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toSource"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097118"
+  },
+  "name": "toString",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toString"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc097119"
+  },
+  "name": "toUpperCase",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09711a"
+  },
+  "name": "trim",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trim"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09711b"
+  },
+  "name": "trimEnd",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd"
+},{
+  "_id": {
+    "$oid": "5e7d43a76aa20c4acc09711c"
+  },
+  "name": "trimStart",
+  "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart"
+}]
