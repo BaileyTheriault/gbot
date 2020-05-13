@@ -10,7 +10,7 @@ const msgMethods = require('./db/queries/messageQueries');
 const embedMethods = require('./methods/embed');
 require('dotenv').config();
 
-client.on('message', async (msg) => {
+client.on('message', async msg => {
   const queryMessage = msg.content.split(' ');
 
   if (queryMessage[0] === '!a' || queryMessage[0] === '!array') {
@@ -19,7 +19,9 @@ client.on('message', async (msg) => {
       const methodData = await methodRes.toJSON();
       await msg.channel.send(methodData.url);
     } catch (err) {
-      msg.channel.send(`Unable to find an array method called ${queryMessage[1]}.`);
+      msg.channel.send(
+        `Unable to find an array method called ${queryMessage[1]}.`
+      );
     }
   }
 
@@ -29,7 +31,9 @@ client.on('message', async (msg) => {
       const methodData = await methodRes.toJSON();
       await msg.channel.send(methodData.url);
     } catch (err) {
-      msg.channel.send(`Unable to find a string method called ${queryMessage[1]}.`);
+      msg.channel.send(
+        `Unable to find a string method called ${queryMessage[1]}.`
+      );
     }
   }
 
@@ -39,7 +43,9 @@ client.on('message', async (msg) => {
       const methodData = await methodRes.toJSON();
       await msg.channel.send(methodData.url);
     } catch (err) {
-      msg.channel.send(`Unable to find an object method called ${queryMessage[1]}.`);
+      msg.channel.send(
+        `Unable to find an object method called ${queryMessage[1]}.`
+      );
     }
   }
 
@@ -55,16 +61,24 @@ client.on('message', async (msg) => {
     }
   }
 
-  if (msg.channel.name !== 'bot-commands' && msg.channel.name !== 'slack-bld09' && msg.channel.name !== 'slack-bld08') {
+  if (
+    msg.channel.name !== 'bot-commands' &&
+    msg.channel.name !== 'slack-bld09' &&
+    msg.channel.name !== 'slack-bld08'
+  ) {
     try {
       await msgMethods.insert(msg);
     } catch (err) {
       console.error(err);
     }
   }
+
+  if (true) {
+    console.log('hello');
+  }
 });
 
-client.on('messageReactionAdd', async (reaction) => {
+client.on('messageReactionAdd', async reaction => {
   if (reaction._emoji.name === 'issue' && reaction.count === 2) {
     try {
       const recievedEmbed = reaction.message.embeds[0];
